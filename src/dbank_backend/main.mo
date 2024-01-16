@@ -6,5 +6,5 @@ actor DBank {
 
   let id = 1314614636315;
 
-  Debug.print(debug_show(currentValue))
+  Debug.print(debug_show(id))
 }
