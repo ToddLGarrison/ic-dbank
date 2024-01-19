@@ -22,6 +22,11 @@ actor DBank {
     } else {
       Debug.print("Withdrawl amount greater that current value")
     }
-  }
+  };
+
+  public query func checkBalance(): async Nat {
+    return currentValue
+  };
+
   //topUp();
 }
